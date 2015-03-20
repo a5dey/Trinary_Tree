@@ -1,4 +1,14 @@
+/**
+ * Implements a tri-node tree similar to a binary tree
+ * but with three nodes.
+ *
+ * @author Ankita Dey (a5dey@uwaterloo.ca)
+ *
+ */
 //A tri-nary tree’s node will look like this
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 class Node
 {
 	int val;
@@ -13,7 +23,7 @@ class Node
 		this.middle=null;
 	}
 }
-class TrinaryTree
+public class TrinaryTree
 {
 	Node root;
 	public void insert(int value)
